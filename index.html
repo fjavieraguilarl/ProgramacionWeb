@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>INSTITUTO TECNOLOGICO SUPERIOR DE LOS RIOS</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/ed-grid.css"/>
+        <link rel="stylesheet" href="css/ed-grid.min.css"/>
+        <link rel="stylesheet" href="css/estilo.css"/>
+        <link rel="stylesheet" href="css/buscador.css"/>
+        <link rel="stylesheet" href="css/nivo-slider.css"/>
+        <link rel="stylesheet" href="themes/default/default.css"/>
+
+        <script type="text/javascript" src="js/buscar.js"></script>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+        <script type="text/javascript"> 
+            $(window).on('load', function() {
+                $('#slider').nivoSlider(); 
+            }); 
+        </script>
+    </head>
+    <body class="cuerpo">
+        <header class="ed-container">
+            <div class="ed-item s-100"><img src="img/foto1.jpg"/></div>
+            <nav>
+                <div class="ed-item l-offset-100 men">
+                    <ul class="ed-menu l-horizontal s-60 expand-submenu">
+                        <li><a href="index.html">inicio</a></li>
+                        <li><a href="unidad1.html">Unidad_1
+                            <ul>
+                                <li><a href="evolucion.html">Evolución
+                                <ul>
+                                    <li><a href="evolucion.html#web1">WEB 1.0</a></li>
+                                    <li><a href="evolucion.html#web2">WEB 2.0</a></li>
+                                    <li><a href="evolucion.html#web3">WEB 3.0</a></li>
+                                    <li><a href="evolucion.html#web4">WEB 4.0</a></li>
+                                </ul>
+                                </a></li>
+                                <li><a href="Arquitectura.html">Arquitectura</a></li>
+                                <li><a href="Tecnologias.html">Tecnologias</a></li>
+                                <li><a href="Planificacion.html">Planificacion</a></li>
+                            </ul>
+                    </ul>
+                    
+                </div>
+                
+            </nav>
+            <div class="flexsearch">
+                <div class="flexsearch--wrapper">
+                    <form class="flexsearch--form" action="#" id="pagina" method="post">
+                        <div class="flexsearch--input-wrapper">
+                            <input class="flexsearch--input" type="search" id="texto" placeholder="Buscar">
+                        </div>
+                        <input class="flexsearch--submit" type="submit" onclick="JavaScript: buscador();" value="&#10140;"/>
+                    </form>
+                </div>
+            </div>
+            
+        </header>
+        <br>
+        <div class="ed-item logo"><img src="img/LOGO.png"/>
+        <br>
+        <br>
+       
+        <div class="slider-wrap theme-default">
+        <div id="slider" class="nivoSlider">     
+            <img src="img/imagen1.jpg" alt="" />       
+            <img src="img/imagen2.jpg" alt="" />     
+            <img src="img/imagen3.jpg" alt="" />
+            <img src="img/imagen4.jpg" alt="" />
+        </div> 
+        </div>  
+        <footer class="ed-container" id="abajo">
+            <div class="ed-item">
+                <p>Aracely Hernandez de la Rosa</p>
+            </div>
+        </footer>
+    </body>
+</html>
